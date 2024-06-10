@@ -1,0 +1,223 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 98%;
+  height: 100%;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  background-color: #f8f8f8;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 180px;
+  margin-right: 10px;
+}
+
+.logo p {
+  font-size: large;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboardMenu {
+  display: flex;
+  gap: 10px;
+}
+
+.dashboardIcons {
+  display: flex;
+  gap: 5px;
+}
+
+.middle-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97%;
+  height: 610px;
+  position: relative;
+  background: linear-gradient(
+      rgba(10, 206, 190, 0.519),
+      rgba(10, 206, 190, 0.519)
+    ),
+    url("./images/doctorbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.text-content {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 0px;
+  flex: 1;
+  color: white;
+  z-index: 1;
+}
+
+.overlay-image {
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+  width: 690px;
+  height: 600px;
+  z-index: 2;
+}
+
+.focus-part-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 97%;
+  height: 290px;
+  padding: 20px;
+  position: relative;
+  background-color: rgb(203, 229, 249);
+}
+
+.highlight {
+  color: #ff5733;
+}
+
+.right-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-btn p {
+  margin-top: 5px;
+}
+
+.center-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.paperCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.carePart {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 97%;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgb(230, 243, 255);
+}
+
+.about {
+  display: grid;
+  grid-template-rows: 300px 200px;
+  grid-template-columns: 1000px 200px 200px 200px 200px;
+  margin-top: 70px;
+  height: 650px;
+}
+
+.about-left {
+  grid-row: 1;
+  grid-column: 1;
+  margin-left: 90px;
+}
+
+.about-right-top {
+  grid-row: 1;
+  grid-column: 4/5;
+  text-align: center;
+}
+
+.about-right-bottom {
+  grid-row: 2;
+  grid-column: 4/5;
+  text-align: start;
+}
+
+.Department {
+  color: #f8f8f8;
+  width: 100%;
+  height: 1030px;
+  border: 1px solid black;
+  background-image: linear-gradient(
+      rgba(0, 156, 204, 0.519),
+      rgba(0, 163, 217, 0.519)
+    ),
+    url(./images/department.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.top-text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hex-pos-1,
+.hex-pos-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.hex {
+  position: relative;
+  width: 290px;
+  height: 350px;
+  aspect-ratio: 1.1547;
+  clip-path: polygon(-50% 50%, 50% 100%, 150% 50%, 50% 0);
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.hex h3,
+.hex p {
+  margin: 5px 0;
+}
+
+.hex img {
+  width: 150px;
+  height: auto;
+  margin: 10px 0;
+}
