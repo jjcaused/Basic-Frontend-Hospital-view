@@ -9,7 +9,7 @@ This project is a replication of the SRI Hospitals homepage using React.js. The 
 - [Technologies Used](#technologies-used)
 
 ## Demo
-A live demo of the project can be found at: [Demo Link](#)
+A live demo of the project can be found at: [[Demo Link](https://66669a7295892b00867e2e2e--lustrous-selkie-be5d2e.netlify.app/)](#)
 
 ## Installation
 To set up the project locally, follow these steps:
